@@ -1,5 +1,0 @@
-﻿aiogram
-aiosqlite
-python-dotenv
-flask
-requests
