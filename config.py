@@ -1,0 +1,15 @@
+﻿import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8907642565:AAGDBnnqai_gdJVKfGlOqtUeliRHA2p_QJM")
+CRYPTOBOT_TOKEN = os.getenv("CRYPTOBOT_TOKEN", "626836:AADKdHUol6Ys9dwLU9AVMJmKYfWmOjVFIpc")
+
+MIN_BET = 0.5
+MIN_WITHDRAW = 5.0
+MIN_DEPOSIT = 1.0
+
+ADMINS = [5483665410, 7508997026]
+
+CURRENCY = "USDT"
